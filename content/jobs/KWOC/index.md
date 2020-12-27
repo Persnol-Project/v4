@@ -3,7 +3,7 @@ date: '2017-04-01'
 title: 'KWoC'
 company: 'KWoC'
 location: 'Remote'
-range: 'Des - Jan 2020'
+range: 'Des 2020 - Jan 2021'
 url: 'https://kwoc.kossiitkgp.org/'
 ---
 
