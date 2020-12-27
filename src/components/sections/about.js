@@ -116,7 +116,7 @@ const StyledPic = styled.div`
 const About = () => {
   const data = useStaticQuery(graphql`
     query {
-      avatar: file(sourceInstanceName: { eq: "images" }, relativePath: { eq: "me.jpg" }) {
+      avatar: file(sourceInstanceName: { eq: "images" }, relativePath: { eq: "myself.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 500, traceSVG: { color: "#64ffda" }) {
             ...GatsbyImageSharpFluid_withWebp_tracedSVG
@@ -132,7 +132,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'HTML & (S)CSS', 'React', 'Vue', 'Node.js', 'WordPress'];
+  const skills = ['JavaScript (ES6+)', 'HTML & (S)CSS', 'React', 'C/C++', 'Node.js', 'Data Structure and Algorithm'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -141,7 +141,7 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            <p>Hello! I'm Brittany, a software engineer based in Boston, MA.</p>
+            <p>Hello! I'm Vivekkumar Javiya, a Computer Science Student.</p>
 
             <p>
               I enjoy creating things that live on the internet, whether that be websites,
@@ -150,10 +150,8 @@ const About = () => {
             </p>
 
             <p>
-              Shortly after graduating from{' '}
-              <a href="https://www.ccis.northeastern.edu">Northeastern University</a>, I joined the
-              engineering team at <a href="https://www.upstatement.com">Upstatement</a> where I work
-              on a wide variety of interesting and meaningful projects on a daily basis.
+              I am curruntly 2nd year computer science Student at {' '}
+              <a href="https://vvpedulink.ac.in/">VVP Engineering College</a>which is under University  <a href="https://www.gtu.ac.in/">GTU</a> 
             </p>
 
             <p>Here are a few technologies I've been working with recently:</p>
