@@ -132,7 +132,14 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'HTML & CSS', 'React', 'C/C++', 'Node.js', 'Data Structure and Algorithm'];
+  const skills = [
+    'JavaScript (ES6+)',
+    'HTML & CSS',
+    'React',
+    'C/C++',
+    'Node.js',
+    'Data Structure and Algorithm',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -150,8 +157,9 @@ const About = () => {
             </p>
 
             <p>
-              I am curruntly 2nd year computer science Student at {' '}
-              <a href="https://vvpedulink.ac.in/">VVP Engineering College</a>which is under University  <a href="https://www.gtu.ac.in/">GTU</a> 
+              I am curruntly 2nd year computer science Student at{' '}
+              <a href="https://vvpedulink.ac.in/">VVP Engineering College</a> which is under
+              University <a href="https://www.gtu.ac.in/">GTU</a>
             </p>
 
             <p>Here are a few technologies I've been working with recently:</p>
